@@ -71,7 +71,7 @@ Once we've built the image, we have all the frameworks we need installed in it. 
 
 **CPU Version**
 ```bash
-docker run -it -p 8888:8888 -p 6006:6006 -v /sharedfolder:/root/sharedfolder floydhub/dl-docker:cpu bash
+docker run -it -p 8888:8888 -p 6006:6006 -v "C:\project\AnaliticasDelAprendizaje\notebooks":/home/deeplearning/work dldocker:1.0 bash
 ```
 	
 **GPU Version**
